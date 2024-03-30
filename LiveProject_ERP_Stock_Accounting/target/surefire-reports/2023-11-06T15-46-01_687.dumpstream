@@ -1,0 +1,5 @@
+# Created at 2023-11-06T15:46:01.983
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Selenium\LiveProject_ERP_Stock_Accounting\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Maven_Hybrid/PropertyFile/property.properties&apos; to &apos;PrimusBank.properties&apos;" description="Rename resource &apos;property.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="PropertyFile/property.properties" name="PrimusBank.properties" stamp="1696157118674" updateReferences="true"/>
+</session>

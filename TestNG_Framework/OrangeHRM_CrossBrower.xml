@@ -1,0 +1,26 @@
+<suite name = "cross browser testing">
+<test name = "chrome Orange test Report">
+<parameter name ="Browser" value="chrome">
+<classes>
+<class name = "CrossBrowser_Tesing.OrangeHRM_Crossbroser_Tesing">
+</class>
+</classes>
+</parameter>
+</test>
+<test name = "firefox Orange test Report">
+<parameter name ="Browser" value="firefox">
+<classes>
+<class name = "CrossBrowser_Tesing.OrangeHRM_Crossbroser_Tesing">
+</class>
+</classes>
+</parameter>
+</test>
+<test name = "edge Orange test Report">
+<parameter name ="Browser" value="edge">
+<classes>
+<class name = "CrossBrowser_Tesing.OrangeHRM_Crossbroser_Tesing">
+</class>
+</classes>
+</parameter>
+</test>
+</suite>

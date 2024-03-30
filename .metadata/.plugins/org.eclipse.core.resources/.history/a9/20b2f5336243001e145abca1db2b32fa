@@ -1,0 +1,39 @@
+package Extra_Practice;
+
+
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Search_bar_Suggestions {
+
+	public static void main(String[] args) throws Throwable {
+		//  create a instance object
+
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().minimize();
+		driver.get("https://www.flipkart.com/");
+		System.out.println(driver.getTitle());
+		driver.findElement(By.xpath("//*[@class='_2KpZ6l _2doB4z']")).click();
+		                                        
+		Thread.sleep(3000);
+        // Find the search bar and enter "iphone"
+		driver.findElement(By.xpath("//input[@class='Pke_EE']")).sendKeys("iphone");
+        Thread.sleep(3000);
+        
+       List<WebElement> search_suggestions = driver.findElements(By.xpath("//*[@class='_3D0G9a']"));
+       for (WebElement each : search_suggestions) {
+		String suggestion_name = each.getText();
+		System.out.println(suggestion_name);
+		
+		
+
+			
+		}	}
+ 
+	}

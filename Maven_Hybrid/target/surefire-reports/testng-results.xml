@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser value Not Matching]]>
+    </line>
+    <line>
+      <![CDATA[No of rows in TCSheet::4   No of rows in TSSheet::14]]>
+    </line>
+    <line>
+      <![CDATA[Login Success::adminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+    </line>
+    <line>
+      <![CDATA[Logout Success::]]>
+    </line>
+    <line>
+      <![CDATA[Login Success::adminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+    </line>
+    <line>
+      <![CDATA[New Branch with id 29 created Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Logout Success::]]>
+    </line>
+    <line>
+      <![CDATA[Login Success::adminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+    </line>
+    <line>
+      <![CDATA[Branch updated Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Logout Success::]]>
+    </line>
+    <line>
+      <![CDATA[Login Success::adminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+    </line>
+    <line>
+      <![CDATA[New Role with id 13 Created Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Logout Success::]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-06T20:30:58 IST" name="Surefire suite" finished-at="2024-02-06T20:31:26 IST" duration-ms="28011">
+    <groups>
+    </groups>
+    <test started-at="2024-02-06T20:30:58 IST" name="Surefire test" finished-at="2024-02-06T20:31:26 IST" duration-ms="28011">
+      <class name="driverFactory.AppTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFactory.AppTest@25fb8912]" started-at="2024-02-06T20:30:54 IST" name="setUp" finished-at="2024-02-06T20:30:58 IST" duration-ms="4509" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser value Not Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="startTest()[pri:0, instance:driverFactory.AppTest@25fb8912]" started-at="2024-02-06T20:30:58 IST" name="startTest" finished-at="2024-02-06T20:31:26 IST" duration-ms="27966" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows in TCSheet::4   No of rows in TSSheet::14]]>
+            </line>
+            <line>
+              <![CDATA[Login Success::adminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+            </line>
+            <line>
+              <![CDATA[Logout Success::]]>
+            </line>
+            <line>
+              <![CDATA[Login Success::adminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+            </line>
+            <line>
+              <![CDATA[New Branch with id 29 created Sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Logout Success::]]>
+            </line>
+            <line>
+              <![CDATA[Login Success::adminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+            </line>
+            <line>
+              <![CDATA[Branch updated Sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Logout Success::]]>
+            </line>
+            <line>
+              <![CDATA[Login Success::adminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+            </line>
+            <line>
+              <![CDATA[New Role with id 13 Created Sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Logout Success::]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.AppTest@25fb8912]" started-at="2024-02-06T20:31:26 IST" name="tearDown" finished-at="2024-02-06T20:31:26 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

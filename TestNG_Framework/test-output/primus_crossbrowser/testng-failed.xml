@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [primus_crossbrowser]">
+  <test thread-count="5" name="chromebrowser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="CrossBrowser_Tesing.Primusbank_Crossbrowser_Testing">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="Validate_PrimusLogin" invocation-numbers="1 2 3 4"/>
+        </methods>
+      </class> <!-- CrossBrowser_Tesing.Primusbank_Crossbrowser_Testing -->
+    </classes>
+  </test> <!-- chromebrowser(failed) -->
+  <test thread-count="5" name="firefoxbrowser(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="CrossBrowser_Tesing.Primusbank_Crossbrowser_Testing">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="Validate_PrimusLogin" invocation-numbers="1 2 3 4"/>
+        </methods>
+      </class> <!-- CrossBrowser_Tesing.Primusbank_Crossbrowser_Testing -->
+    </classes>
+  </test> <!-- firefoxbrowser(failed) -->
+  <test thread-count="5" name="edgebrowser(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="CrossBrowser_Tesing.Primusbank_Crossbrowser_Testing">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="Validate_PrimusLogin" invocation-numbers="2 3 4"/>
+        </methods>
+      </class> <!-- CrossBrowser_Tesing.Primusbank_Crossbrowser_Testing -->
+    </classes>
+  </test> <!-- edgebrowser(failed) -->
+</suite> <!-- Failed suite [primus_crossbrowser] -->
